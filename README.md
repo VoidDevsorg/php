@@ -15,6 +15,7 @@ Void Development © All right reserved.
 
 - Firstly, transfer files to your ftp server.
 - Then take the sql file we have given to the desktop.
+- Login to phpMyAdmin.
 - Create a database.
 - Read the SQL that we have given to the database as SQL.
 - And finally, enter detailed information in files like "db.php / dbconnect.php / dbconnection.php / function.php".
