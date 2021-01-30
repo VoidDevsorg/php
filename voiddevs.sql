@@ -38,7 +38,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `adminname`, `email`, `password`) VALUES
-(1, 'admin', 'admin', 'admin');
+(1, 'admin', 'admin@voiddevs.org', 'admin');
 
 -- --------------------------------------------------------
 
