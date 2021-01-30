@@ -26,8 +26,6 @@ SET time_zone = "+00:00";
 --
 -- Tablo için tablo yapısı `admin`
 --
-CREATE DATABASE membership;
-USE membership;
 CREATE TABLE `admin` (
   `id` int(11) NOT NULL,
   `adminname` varchar(256) NOT NULL,
@@ -40,14 +38,13 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `adminname`, `email`, `password`) VALUES
-(1, 'VoidDevs', 'admin@voiddevs.org', 'ee951c16aedfeb93e89810f4fa0eae88');
+(1, 'admin', 'admin', 'admin');
 
 -- --------------------------------------------------------
 
 --
 -- Tablo için tablo yapısı `tickets`
 --
-USE membership;
 CREATE TABLE `tickets` (
   `id` int(12) NOT NULL,
   `username` varchar(256) NOT NULL,
@@ -71,7 +68,6 @@ INSERT INTO `tickets` (`id`, `username`, `title`, `msg`, `value`, `email`, `crea
 --
 -- Tablo için tablo yapısı `tickets_comments`
 --
-USE membership;
 CREATE TABLE `tickets_comments` (
   `id` int(11) NOT NULL,
   `ticket_id` int(11) NOT NULL,
@@ -93,7 +89,6 @@ INSERT INTO `tickets_comments` (`id`, `ticket_id`, `msg`, `created`) VALUES
 --
 -- Tablo için tablo yapısı `users`
 --
-USE membership;
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `username` varchar(20) NOT NULL,
