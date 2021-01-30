@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
+
+.card-container h6, h5, h4, h3, h2, h1, a {
+    font-family: 'Baloo Paaji 2', cursive;
+    color: #fff;
+    transition: all 0.2s;
+}
+.card-container a:hover {
+    color: #fff;
+}
+
+.card-container {
+    width: calc(70vw/3);
+    max-width: 100%;
+    padding: 12px;
+    display: inline-block;
+    margin: 6px;
+    background: #2c2f33;
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Baloo Paaji 2', cursive;
+    transition: all 0.2s;
+    align-items: center;
+  }
+
+  .card-container:hover {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+  }
+  
+
+  .card-container .round {
+      border: 1px solid #23272a;
+      border-radius: 50%;
+      padding: 7px;
+  }
+
+  
+  
+  
+  button.primary {
+      cursor: pointer;
+      background-color: #000;
+      border: 2px solid #000;
+      border-radius: 50%;
+      color: #fff;
+      font-weight: 500;
+      padding: 10px 10px;
+    transition: 0.2s;
+    margin: 2%;
+        box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+  
+  }
+  
+  
+  
+  
+  
+  
+  button.primary:hover {
+    color: #B3B8CD;
+        transition: 0.2s;
+      -webkit-transform: scale(1.12);
+      transform: scale(1.12);
+  }
+  
+  
+  .skills {
+    border-radius: 10px;
+    font-family: 'Baloo Paaji 2', cursive;
+      background-color: #23272a;
+      text-align: left;
+      padding: 15px;
+      margin-top: 30px;
+      box-sizing: border-box;
+      color: #fff;
+      font-family: 'Baloo Paaji 2', cursive;
+      transition: all 0.2s;
+  }
+  
+  .skills ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .skills ul li {
+      border: 1px solid #2c2f33;
+      border-radius: 2px;
+      display: inline-block;
+      font-size: 12px;
+      margin: 0 7px 7px 0;
+      padding: 7px;
+  }
+  
+  @media only screen and (max-width:768px) {
+    /* For tablets: */
+    .card-container {
+      display: block;
+      width: 75%;
+    }
+      .card-container:hover {
+      display: block;
+      width: 75%;
+    }
+    .tags-box {
+      opacity: 0%;
+    }
+  }
